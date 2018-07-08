@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Kana Familiarizer",
+    "description": "Replaces all text on pages you visit with kana using Hepburn, so you can familiarize yourself with reading kana-only text.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}

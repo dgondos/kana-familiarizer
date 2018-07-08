@@ -1,0 +1,11 @@
+{
+    "name": "kana-familiarizer",
+    "description": "Web extension to replace all text with kana",
+    "scripts": {
+        "start": "browserify src/kana-fam.js -o dist/content.js"
+    },
+    "devDependencies": {
+        "browserify": "^16.2.2",
+        "hepburn": "^1.0.0"
+    }
+}
