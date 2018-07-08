@@ -13,5 +13,10 @@
             ],
             "run_at": "document_end"
         }
-    ]
+    ],
+    "browser_action": {
+    },
+    "background": {
+        "scripts": ["bg.js"]
+    }
 }
